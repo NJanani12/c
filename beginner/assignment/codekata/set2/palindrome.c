@@ -7,7 +7,7 @@ p=n;
 for(i=0;n>0;i++)
 {
 m=n%10;
-sum=(sum*n)+m;
+sum=(sum*10)+m;
 n=n/10;
 }
 if(sum==p)
