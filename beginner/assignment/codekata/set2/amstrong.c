@@ -11,8 +11,8 @@ sum=sum+m*m*m;
 n=n/10;
 }
 if(sum==p)
-printf("amstrong number");
+printf("armstrong number");
 else
-printf("not amstrong number");
+printf("not armstrong number");
 return 0;
 }
