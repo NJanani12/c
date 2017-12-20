@@ -10,14 +10,12 @@ int main(void) {
 	}
 	for(i=0;i<k;i++)
 	{
-		t=a[0];
-		for(j=0;j<n;j++)
+		for(j=0;j<n-1;j++)
 		{
-			
+			t=a[j];
 			a[j]=a[j+1];
-			
+			a[j+1]=t;
 		}
-		a[j]=t;
 	}
 	for(i=0;i<n;i++)
 	{
