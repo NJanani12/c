@@ -5,7 +5,7 @@ int main(void) {
 	int i,j,n,k;
 	scanf("%s",s);
 	n=strlen(s);
-	for(i=0;i<n;i++)
+	for(i=0;i<n-1;i++)
 	{
 		int count=1;
 		for(j=i+1;j<n;j++)
@@ -20,9 +20,9 @@ int main(void) {
 			k++;
 			}
 			s[k-1]='\0';
+			}
 		}
 		printf("%c -%d\n",s[i],count);
-		i++;
 	}
 	return 0;
 }
