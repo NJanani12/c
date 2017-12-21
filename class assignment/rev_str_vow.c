@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include<string.h>
 int main(void) {
-	// your code goes here
 	char s[10],p[10],t;
 	int i,n,j,m;
 	scanf("%s",s);
